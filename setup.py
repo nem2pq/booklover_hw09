@@ -8,5 +8,5 @@ setup(name='booklover',
       author_email='nem2pq@virginia.edu',
       license='MIT',
       packages=['booklover'],
-      install_requires=['numpy', 'pandas'],
+      install_requires=['numpy', 'pandas', 'warnings'],
       zip_safe=False)

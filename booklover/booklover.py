@@ -2,6 +2,7 @@
 
 import pandas as pd
 import numpy as np
+import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 class BookLover:
     def __init__(self, n, e, g, nb = 0, bl = pd.DataFrame({'book_name':[], 'book_rating':[]})):
